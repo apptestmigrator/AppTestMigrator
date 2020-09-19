@@ -1,0 +1,1426 @@
+{
+	"graph": {
+		"nodes": [
+			{
+				"id": "14",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.DatePickerDialog"
+				}
+			},
+			{
+				"id": "4",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.tutorial.TutorialActivity"
+				}
+			},
+			{
+				"id": "3",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.baseactivity.BaseActivity"
+				}
+			},
+			{
+				"id": "5",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.help.HelpActivity"
+				}
+			},
+			{
+				"id": "15",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "20",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "21",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.TimePickerDialog"
+				}
+			},
+			{
+				"id": "12",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.settings.SettingsActivity"
+				}
+			},
+			{
+				"id": "7",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.about.AboutActivity"
+				}
+			},
+			{
+				"id": "13",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.main.MainActivity"
+				}
+			},
+			{
+				"id": "25",
+				"properties": {
+					"type": "LAUNCHER_NODE",
+					"ActivityName": ""
+				}
+			},
+			{
+				"id": "1",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.statistics.StatisticsActivity"
+				}
+			},
+			{
+				"id": "10",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.deletelists.DeleteListsActivity"
+				}
+			},
+			{
+				"id": "23",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.products.PhotoPreviewActivity"
+				}
+			},
+			{
+				"id": "11",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.deleteproducts.DeleteProductsActivity"
+				}
+			},
+			{
+				"id": "6",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.camera.CameraActivity"
+				}
+			},
+			{
+				"id": "16",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "17",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "18",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "22",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.products.ProductsActivity"
+				}
+			},
+			{
+				"id": "19",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.DatePickerDialog"
+				}
+			},
+			{
+				"id": "8",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.main.SplashActivity"
+				}
+			},
+			{
+				"id": "24",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.main.MainActivity"
+				}
+			},
+			{
+				"id": "9",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.products.PhotoPreviewActivity"
+				}
+			},
+			{
+				"id": "2",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.products.ProductsActivity"
+				}
+			},
+			{
+				"id": "26",
+				"properties": {
+					"type": "ContextMenu",
+					"ActivityName": "VAR[$r1"
+				}
+			}
+		],
+		"relationships": [
+			{
+				"id": "1",
+				"type": "can_access",
+				"startNode": "24",
+				"endNode": "10",
+				"properties": {
+					"id": "imageview_delete",
+					"class": "android.view.MenuItem",
+					"text": "Delete",
+					"action": "click"
+				}
+			},
+			{
+				"id": "2",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "22",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "3",
+				"type": "can_access",
+				"startNode": "13",
+				"endNode": "13",
+				"properties": {
+					"id": "fab_new_list",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "4",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "button_capture",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "5",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "button_retake",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "6",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "button_flash",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "7",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "2",
+				"properties": {
+					"id": "textview_stats_range_to",
+					"class": "android.widget.TextView",
+					"text": "EE MM/dd/yyyy",
+					"action": "click"
+				}
+			},
+			{
+				"id": "8",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "2",
+				"properties": {
+					"id": "textview_stats_currency",
+					"class": "android.widget.TextView",
+					"text": "$",
+					"action": "click"
+				}
+			},
+			{
+				"id": "9",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "2",
+				"properties": {
+					"id": "textview_stats_title",
+					"class": "android.widget.TextView",
+					"text": "Title",
+					"action": "click"
+				}
+			},
+			{
+				"id": "10",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "13",
+				"properties": {
+					"id": "search_input_text",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "11",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "2",
+				"properties": {
+					"id": "textview_stats_currency",
+					"class": "android.widget.TextView",
+					"text": "$",
+					"action": "click"
+				}
+			},
+			{
+				"id": "12",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "2",
+				"properties": {
+					"id": "textview_stats_total",
+					"class": "android.widget.TextView",
+					"text": "00.00",
+					"action": "click"
+				}
+			},
+			{
+				"id": "13",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "2",
+				"properties": {
+					"id": "textview_stats_total",
+					"class": "android.widget.TextView",
+					"text": "00.00",
+					"action": "click"
+				}
+			},
+			{
+				"id": "14",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "2",
+				"properties": {
+					"id": "textview_stats_title",
+					"class": "android.widget.TextView",
+					"text": "Title",
+					"action": "click"
+				}
+			},
+			{
+				"id": "15",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "2",
+				"properties": {
+					"id": "textview_stats_currency",
+					"class": "android.widget.TextView",
+					"text": "$",
+					"action": "click"
+				}
+			},
+			{
+				"id": "16",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "2",
+				"properties": {
+					"id": "textview_stats_range_to",
+					"class": "android.widget.TextView",
+					"text": "EE MM/dd/yyyy",
+					"action": "click"
+				}
+			},
+			{
+				"id": "17",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "13",
+				"properties": {
+					"id": "search_input_text",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "18",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "13",
+				"properties": {
+					"id": "search_input_text",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "19",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "2",
+				"properties": {
+					"id": "textview_stats_range_from",
+					"class": "android.widget.TextView",
+					"text": "EE MM/dd/yyyy",
+					"action": "click"
+				}
+			},
+			{
+				"id": "20",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "2",
+				"properties": {
+					"id": "textview_stats_range_from",
+					"class": "android.widget.TextView",
+					"text": "EE MM/dd/yyyy",
+					"action": "click"
+				}
+			},
+			{
+				"id": "21",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "2",
+				"properties": {
+					"id": "textview_stats_total",
+					"class": "android.widget.TextView",
+					"text": "00.00",
+					"action": "click"
+				}
+			},
+			{
+				"id": "22",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "2",
+				"properties": {
+					"id": "textview_stats_range_to",
+					"class": "android.widget.TextView",
+					"text": "EE MM/dd/yyyy",
+					"action": "click"
+				}
+			},
+			{
+				"id": "23",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "2",
+				"properties": {
+					"id": "textview_stats_range_from",
+					"class": "android.widget.TextView",
+					"text": "EE MM/dd/yyyy",
+					"action": "click"
+				}
+			},
+			{
+				"id": "24",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "2",
+				"properties": {
+					"id": "textview_stats_title",
+					"class": "android.widget.TextView",
+					"text": "Title",
+					"action": "click"
+				}
+			},
+			{
+				"id": "25",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "13",
+				"properties": {
+					"id": "textview_stats_range_from",
+					"class": "android.widget.TextView",
+					"text": "EE MM/dd/yyyy",
+					"action": "click"
+				}
+			},
+			{
+				"id": "26",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "13",
+				"properties": {
+					"id": "textview_stats_total",
+					"class": "android.widget.TextView",
+					"text": "00.00",
+					"action": "click"
+				}
+			},
+			{
+				"id": "27",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "13",
+				"properties": {
+					"id": "textview_stats_total",
+					"class": "android.widget.TextView",
+					"text": "00.00",
+					"action": "click"
+				}
+			},
+			{
+				"id": "28",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "13",
+				"properties": {
+					"id": "textview_stats_currency",
+					"class": "android.widget.TextView",
+					"text": "$",
+					"action": "click"
+				}
+			},
+			{
+				"id": "29",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "13",
+				"properties": {
+					"id": "textview_stats_range_to",
+					"class": "android.widget.TextView",
+					"text": "EE MM/dd/yyyy",
+					"action": "click"
+				}
+			},
+			{
+				"id": "30",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "13",
+				"properties": {
+					"id": "textview_stats_currency",
+					"class": "android.widget.TextView",
+					"text": "$",
+					"action": "click"
+				}
+			},
+			{
+				"id": "31",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "13",
+				"properties": {
+					"id": "textview_stats_range_from",
+					"class": "android.widget.TextView",
+					"text": "EE MM/dd/yyyy",
+					"action": "click"
+				}
+			},
+			{
+				"id": "32",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "13",
+				"properties": {
+					"id": "textview_stats_range_from",
+					"class": "android.widget.TextView",
+					"text": "EE MM/dd/yyyy",
+					"action": "click"
+				}
+			},
+			{
+				"id": "33",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "13",
+				"properties": {
+					"id": "textview_stats_range_to",
+					"class": "android.widget.TextView",
+					"text": "EE MM/dd/yyyy",
+					"action": "click"
+				}
+			},
+			{
+				"id": "34",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "13",
+				"properties": {
+					"id": "textview_stats_range_to",
+					"class": "android.widget.TextView",
+					"text": "EE MM/dd/yyyy",
+					"action": "click"
+				}
+			},
+			{
+				"id": "35",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "13",
+				"properties": {
+					"id": "textview_stats_currency",
+					"class": "android.widget.TextView",
+					"text": "$",
+					"action": "click"
+				}
+			},
+			{
+				"id": "36",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "13",
+				"properties": {
+					"id": "textview_stats_total",
+					"class": "android.widget.TextView",
+					"text": "00.00",
+					"action": "click"
+				}
+			},
+			{
+				"id": "37",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "13",
+				"properties": {
+					"id": "textview_stats_title",
+					"class": "android.widget.TextView",
+					"text": "Title",
+					"action": "click"
+				}
+			},
+			{
+				"id": "38",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "13",
+				"properties": {
+					"id": "textview_stats_title",
+					"class": "android.widget.TextView",
+					"text": "Title",
+					"action": "click"
+				}
+			},
+			{
+				"id": "39",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "13",
+				"properties": {
+					"id": "textview_stats_title",
+					"class": "android.widget.TextView",
+					"text": "Title",
+					"action": "click"
+				}
+			},
+			{
+				"id": "40",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "2",
+				"properties": {
+					"id": "btn_next",
+					"class": "android.widget.Button",
+					"text": "Next",
+					"action": "click"
+				}
+			},
+			{
+				"id": "41",
+				"type": "can_access",
+				"startNode": "24",
+				"endNode": "13",
+				"properties": {
+					"id": "imageview_delete",
+					"class": "android.view.MenuItem",
+					"text": "Delete",
+					"action": "click"
+				}
+			},
+			{
+				"id": "42",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "2",
+				"properties": {
+					"id": "btn_skip",
+					"class": "android.widget.Button",
+					"text": "Skip",
+					"action": "click"
+				}
+			},
+			{
+				"id": "43",
+				"type": "can_access",
+				"startNode": "13",
+				"endNode": "24",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "44",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "2",
+				"properties": {
+					"id": "button_capture",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "45",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "2",
+				"properties": {
+					"id": "button_capture",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "46",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "2",
+				"properties": {
+					"id": "button_capture",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "47",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "2",
+				"properties": {
+					"id": "button_capture",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "48",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "2",
+				"properties": {
+					"id": "button_capture",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "49",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "2",
+				"properties": {
+					"id": "button_capture",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "50",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "11",
+				"properties": {
+					"id": "fab_delete_products",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "51",
+				"type": "can_access",
+				"startNode": "24",
+				"endNode": "13",
+				"properties": {
+					"id": "imageview_sort",
+					"class": "android.view.MenuItem",
+					"text": "Sort",
+					"action": "click"
+				}
+			},
+			{
+				"id": "52",
+				"type": "can_access",
+				"startNode": "18",
+				"endNode": "18",
+				"properties": {
+					"id": "category_input",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "focus_change"
+				}
+			},
+			{
+				"id": "53",
+				"type": "can_access",
+				"startNode": "18",
+				"endNode": "18",
+				"properties": {
+					"id": "category_input",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "54",
+				"type": "can_access",
+				"startNode": "18",
+				"endNode": "18",
+				"properties": {
+					"id": "store_input",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "55",
+				"type": "can_access",
+				"startNode": "18",
+				"endNode": "18",
+				"properties": {
+					"id": "store_input",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "focus_change"
+				}
+			},
+			{
+				"id": "56",
+				"type": "can_access",
+				"startNode": "18",
+				"endNode": "18",
+				"properties": {
+					"id": "product_name",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "57",
+				"type": "can_access",
+				"startNode": "18",
+				"endNode": "18",
+				"properties": {
+					"id": "product_price",
+					"class": "android.support.design.widget.TextInputEditText",
+					"text": "",
+					"action": "focus_change"
+				}
+			},
+			{
+				"id": "58",
+				"type": "can_access",
+				"startNode": "18",
+				"endNode": "18",
+				"properties": {
+					"id": "product_name",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "focus_change"
+				}
+			},
+			{
+				"id": "59",
+				"type": "can_access",
+				"startNode": "18",
+				"endNode": "18",
+				"properties": {
+					"id": "product_price",
+					"class": "android.support.design.widget.TextInputEditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "60",
+				"type": "can_access",
+				"startNode": "18",
+				"endNode": "18",
+				"properties": {
+					"id": "quantity",
+					"class": "android.support.design.widget.TextInputEditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "61",
+				"type": "can_access",
+				"startNode": "18",
+				"endNode": "18",
+				"properties": {
+					"id": "product_notes",
+					"class": "android.support.design.widget.TextInputEditText",
+					"text": "",
+					"action": "focus_change"
+				}
+			},
+			{
+				"id": "62",
+				"type": "can_access",
+				"startNode": "18",
+				"endNode": "18",
+				"properties": {
+					"id": "quantity",
+					"class": "android.support.design.widget.TextInputEditText",
+					"text": "",
+					"action": "focus_change"
+				}
+			},
+			{
+				"id": "63",
+				"type": "can_access",
+				"startNode": "18",
+				"endNode": "18",
+				"properties": {
+					"id": "product_notes",
+					"class": "android.support.design.widget.TextInputEditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "64",
+				"type": "can_access",
+				"startNode": "24",
+				"endNode": "2",
+				"properties": {
+					"id": "imageview_delete",
+					"class": "android.view.MenuItem",
+					"text": "Delete",
+					"action": "click"
+				}
+			},
+			{
+				"id": "65",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "13",
+				"properties": {
+					"id": "button_capture",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "66",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "13",
+				"properties": {
+					"id": "button_capture",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "67",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "13",
+				"properties": {
+					"id": "button_capture",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "68",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "13",
+				"properties": {
+					"id": "button_capture",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "69",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "13",
+				"properties": {
+					"id": "button_capture",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "70",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "13",
+				"properties": {
+					"id": "button_capture",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "71",
+				"type": "can_access",
+				"startNode": "10",
+				"endNode": "10",
+				"properties": {
+					"id": "fab_delete_lists",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "72",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "2",
+				"properties": {
+					"id": "imageview_delete",
+					"class": "android.view.MenuItem",
+					"text": "Delete",
+					"action": "click"
+				}
+			},
+			{
+				"id": "73",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "13",
+				"properties": {
+					"id": "imageview_delete",
+					"class": "android.view.MenuItem",
+					"text": "Delete",
+					"action": "click"
+				}
+			},
+			{
+				"id": "74",
+				"type": "can_access",
+				"startNode": "9",
+				"endNode": "23",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "75",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "search_input_text",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "76",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "search_input_text",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "77",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "search_input_text",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "78",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "cancel_search",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "79",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "search_input_text",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "80",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "fab_new_product",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "81",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "textview_stats_currency",
+					"class": "android.widget.TextView",
+					"text": "$",
+					"action": "click"
+				}
+			},
+			{
+				"id": "82",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "textview_stats_range_from",
+					"class": "android.widget.TextView",
+					"text": "EE MM/dd/yyyy",
+					"action": "click"
+				}
+			},
+			{
+				"id": "83",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "spinner_stats_group_by",
+					"class": "android.widget.Spinner",
+					"text": "",
+					"action": "item_selected"
+				}
+			},
+			{
+				"id": "84",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "textview_stats_range_to",
+					"class": "android.widget.TextView",
+					"text": "EE MM/dd/yyyy",
+					"action": "click"
+				}
+			},
+			{
+				"id": "85",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "textview_stats_title",
+					"class": "android.widget.TextView",
+					"text": "Title",
+					"action": "click"
+				}
+			},
+			{
+				"id": "86",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "textview_stats_total",
+					"class": "android.widget.TextView",
+					"text": "00.00",
+					"action": "click"
+				}
+			},
+			{
+				"id": "87",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "spinner_stats_values",
+					"class": "android.widget.Spinner",
+					"text": "",
+					"action": "item_selected"
+				}
+			},
+			{
+				"id": "88",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "2",
+				"properties": {
+					"id": "imageview_search",
+					"class": "android.view.MenuItem",
+					"text": "Search",
+					"action": "click"
+				}
+			},
+			{
+				"id": "89",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "2",
+				"properties": {
+					"id": "imageview_sort",
+					"class": "android.view.MenuItem",
+					"text": "Sort",
+					"action": "click"
+				}
+			},
+			{
+				"id": "90",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "11",
+				"properties": {
+					"id": "imageview_delete",
+					"class": "android.view.MenuItem",
+					"text": "Delete",
+					"action": "click"
+				}
+			},
+			{
+				"id": "91",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "13",
+				"properties": {
+					"id": "btn_skip",
+					"class": "android.widget.Button",
+					"text": "Skip",
+					"action": "click"
+				}
+			},
+			{
+				"id": "92",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "13",
+				"properties": {
+					"id": "btn_next",
+					"class": "android.widget.Button",
+					"text": "Next",
+					"action": "click"
+				}
+			},
+			{
+				"id": "93",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "13",
+				"properties": {
+					"id": "btn_skip",
+					"class": "android.widget.Button",
+					"text": "Skip",
+					"action": "click"
+				}
+			},
+			{
+				"id": "94",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "13",
+				"properties": {
+					"id": "btn_next",
+					"class": "android.widget.Button",
+					"text": "Next",
+					"action": "click"
+				}
+			},
+			{
+				"id": "95",
+				"type": "can_access",
+				"startNode": "18",
+				"endNode": "2",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "OKAY",
+					"action": "click"
+				}
+			},
+			{
+				"id": "96",
+				"type": "can_access",
+				"startNode": "13",
+				"endNode": "24",
+				"properties": {
+					"id": "",
+					"class": "android.widget.ImageButton",
+					"text": "Open navigation drawer",
+					"action": "click"
+				}
+			},
+			{
+				"id": "97",
+				"type": "can_access",
+				"startNode": "24",
+				"endNode": "12",
+				"properties": {
+					"id": "design_menu_item_text",
+					"class": "android.widget.CheckedTextView",
+					"text": "Settings",
+					"action": "click"
+				}
+			},
+			{
+				"id": "98",
+				"type": "can_access",
+				"startNode": "13",
+				"endNode": "26",
+				"properties": {
+					"id": "textview_list_name",
+					"class": "android.widget.TextView",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "99",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "15",
+				"properties": {
+					"id": "edit",
+					"class": "android.widget.Button",
+					"text": "EDIT",
+					"action": "click"
+				}
+			},
+			{
+				"id": "100",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "15",
+				"properties": {
+					"id": "duplicate",
+					"class": "android.widget.Button",
+					"text": "DUPLICATE",
+					"action": "click"
+				}
+			},
+			{
+				"id": "101",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "15",
+				"properties": {
+					"id": "share",
+					"class": "android.widget.Button",
+					"text": "SHARE",
+					"action": "click"
+				}
+			},
+			{
+				"id": "102",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "15",
+				"properties": {
+					"id": "reset",
+					"class": "android.widget.Button",
+					"text": "RESET",
+					"action": "click"
+				}
+			},
+			{
+				"id": "103",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "15",
+				"properties": {
+					"id": "delete",
+					"class": "android.widget.Button",
+					"text": "DELETE",
+					"action": "click"
+				}
+			}
+		]
+	}
+}

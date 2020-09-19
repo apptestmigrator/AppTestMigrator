@@ -1,0 +1,374 @@
+{
+	"graph": {
+		"nodes": [
+			{
+				"id": "2",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.actionbarsherlock.app.SherlockFragmentActivity"
+				}
+			},
+			{
+				"id": "8",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.DatePickerDialog"
+				}
+			},
+			{
+				"id": "3",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "chan.android.app.pocketnote.app.settings.NewPasswordActivity"
+				}
+			},
+			{
+				"id": "10",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.DatePickerDialog"
+				}
+			},
+			{
+				"id": "11",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.DatePickerDialog"
+				}
+			},
+			{
+				"id": "17",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "chan.android.app.pocketnote.MainActivity"
+				}
+			},
+			{
+				"id": "6",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "chan.android.app.pocketnote.app.PhotoViewActivity"
+				}
+			},
+			{
+				"id": "12",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.TimePickerDialog"
+				}
+			},
+			{
+				"id": "7",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "chan.android.app.pocketnote.MainActivity"
+				}
+			},
+			{
+				"id": "13",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.DatePickerDialog"
+				}
+			},
+			{
+				"id": "5",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "chan.android.app.pocketnote.app.notes.EditNoteActivity"
+				}
+			},
+			{
+				"id": "14",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "com.actionbarsherlock.app.SherlockFragmentActivity"
+				}
+			},
+			{
+				"id": "9",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.DatePickerDialog"
+				}
+			},
+			{
+				"id": "16",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "chan.android.app.pocketnote.app.notes.EditNoteActivity"
+				}
+			},
+			{
+				"id": "18",
+				"properties": {
+					"type": "LAUNCHER_NODE",
+					"ActivityName": ""
+				}
+			},
+			{
+				"id": "4",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "chan.android.app.pocketnote.app.reminder.ReminderActivity"
+				}
+			},
+			{
+				"id": "15",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "chan.android.app.pocketnote.app.reminder.ReminderActivity"
+				}
+			},
+			{
+				"id": "1",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "chan.android.app.pocketnote.app.settings.ChangePasswordActivity"
+				}
+			}
+		],
+		"relationships": [
+			{
+				"id": "1",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "main_$_listview_items",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "2",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "3",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "change_password_$_button_save",
+					"class": "android.widget.Button",
+					"text": "Save",
+					"action": "click"
+				}
+			},
+			{
+				"id": "4",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "12",
+				"properties": {
+					"id": "reminder_$_button_time_alarm_pick_end_date",
+					"class": "android.widget.Button",
+					"text": "Never",
+					"action": "click"
+				}
+			},
+			{
+				"id": "5",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "12",
+				"properties": {
+					"id": "reminder_$_button_time_alarm_pick_date",
+					"class": "android.widget.Button",
+					"text": "Thursday, May 22, 2014",
+					"action": "click"
+				}
+			},
+			{
+				"id": "6",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "12",
+				"properties": {
+					"id": "reminder_$_button_time_alarm_pick_time",
+					"class": "android.widget.Button",
+					"text": "11:31 AM",
+					"action": "click"
+				}
+			},
+			{
+				"id": "7",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "reminder_$_spinner_time_alarm_when",
+					"class": "android.widget.Spinner",
+					"text": "",
+					"action": "item_selected"
+				}
+			},
+			{
+				"id": "8",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "reminder_$_spinner_all_day_when",
+					"class": "android.widget.Spinner",
+					"text": "",
+					"action": "item_selected"
+				}
+			},
+			{
+				"id": "9",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "reminder_$_button_pick_a_date",
+					"class": "android.widget.Button",
+					"text": "Thursday, May 22, 2014",
+					"action": "click"
+				}
+			},
+			{
+				"id": "10",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "reminder_$_spinner_time_alarm_repetition",
+					"class": "android.widget.Spinner",
+					"text": "",
+					"action": "item_selected"
+				}
+			},
+			{
+				"id": "11",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "reminder_$_spinner_type",
+					"class": "android.widget.Spinner",
+					"text": "",
+					"action": "item_selected"
+				}
+			},
+			{
+				"id": "12",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "reminder_$_spinner_all_day_repetition",
+					"class": "android.widget.Spinner",
+					"text": "",
+					"action": "item_selected"
+				}
+			},
+			{
+				"id": "13",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "14",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "reminder_$_button_all_day_pick_end_date",
+					"class": "android.widget.Button",
+					"text": "Thursday, May 22, 2014",
+					"action": "click"
+				}
+			},
+			{
+				"id": "15",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "reminder_$_textview_type",
+					"class": "android.widget.TextView",
+					"text": "Type",
+					"action": "click"
+				}
+			},
+			{
+				"id": "16",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "3",
+				"properties": {
+					"id": "new_password_$_button_save",
+					"class": "android.widget.Button",
+					"text": "Save",
+					"action": "click"
+				}
+			},
+			{
+				"id": "17",
+				"type": "can_access",
+				"startNode": "12",
+				"endNode": "4",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "18",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "19",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "5",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "20",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "5",
+				"properties": {
+					"id": "editor_$_button_pick_color",
+					"class": "chan.android.app.pocketnote.util.view.SquareButton",
+					"text": "",
+					"action": "click"
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,314 @@
+{
+	"graph": {
+		"nodes": [
+			{
+				"id": "17",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "com.iliakplv.notes.gui.main.MainActivity"
+				}
+			},
+			{
+				"id": "8",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "14",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "2",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.iliakplv.notes.gui.main.MainActivity"
+				}
+			},
+			{
+				"id": "16",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "4",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.dropbox.client2.android.AuthActivity"
+				}
+			},
+			{
+				"id": "5",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "18",
+				"properties": {
+					"type": "LAUNCHER_NODE",
+					"ActivityName": ""
+				}
+			},
+			{
+				"id": "6",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "7",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "3",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.dropbox.sync.android.DbxAuthActivity"
+				}
+			},
+			{
+				"id": "9",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "10",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "11",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "12",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "13",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "1",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.iliakplv.notes.gui.settings.SettingsActivity"
+				}
+			},
+			{
+				"id": "15",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			}
+		],
+		"relationships": [
+			{
+				"id": "1",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "17",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "2",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "3",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "2",
+				"properties": {
+					"id": "action_dropbox_close",
+					"class": "android.view.MenuItem",
+					"text": "Announcement!",
+					"action": "click"
+				}
+			},
+			{
+				"id": "4",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "2",
+				"properties": {
+					"id": "search",
+					"class": "android.view.MenuItem",
+					"text": "Search",
+					"action": "click"
+				}
+			},
+			{
+				"id": "5",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "2",
+				"properties": {
+					"id": "action_dropbox",
+					"class": "android.view.MenuItem",
+					"text": "Refresh",
+					"action": "click"
+				}
+			},
+			{
+				"id": "6",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "2",
+				"properties": {
+					"id": "action_speak",
+					"class": "android.view.MenuItem",
+					"text": "Voice input",
+					"action": "click"
+				}
+			},
+			{
+				"id": "7",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "2",
+				"properties": {
+					"id": "action_about",
+					"class": "android.view.MenuItem",
+					"text": "About",
+					"action": "click"
+				}
+			},
+			{
+				"id": "8",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "2",
+				"properties": {
+					"id": "action_add",
+					"class": "android.view.MenuItem",
+					"text": "New note",
+					"action": "click"
+				}
+			},
+			{
+				"id": "9",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "2",
+				"properties": {
+					"id": "action_speak",
+					"class": "android.view.MenuItem",
+					"text": "Voice input",
+					"action": "click"
+				}
+			},
+			{
+				"id": "10",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "2",
+				"properties": {
+					"id": "action_dropbox_close",
+					"class": "android.view.MenuItem",
+					"text": "Announcement!",
+					"action": "click"
+				}
+			},
+			{
+				"id": "11",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "2",
+				"properties": {
+					"id": "action_add",
+					"class": "android.view.MenuItem",
+					"text": "New note",
+					"action": "click"
+				}
+			},
+			{
+				"id": "12",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "2",
+				"properties": {
+					"id": "search",
+					"class": "android.view.MenuItem",
+					"text": "Search",
+					"action": "click"
+				}
+			},
+			{
+				"id": "13",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "2",
+				"properties": {
+					"id": "action_about",
+					"class": "android.view.MenuItem",
+					"text": "About",
+					"action": "click"
+				}
+			},
+			{
+				"id": "14",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "1",
+				"properties": {
+					"id": "action_settings",
+					"class": "android.view.MenuItem",
+					"text": "Settings",
+					"action": "click"
+				}
+			},
+			{
+				"id": "15",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "1",
+				"properties": {
+					"id": "action_settings",
+					"class": "android.view.MenuItem",
+					"text": "Settings",
+					"action": "click"
+				}
+			}
+		]
+	}
+}

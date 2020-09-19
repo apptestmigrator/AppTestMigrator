@@ -1,0 +1,738 @@
+{
+	"graph": {
+		"nodes": [
+			{
+				"id": "10",
+				"properties": {
+					"type": "LAUNCHER_NODE",
+					"ActivityName": ""
+				}
+			},
+			{
+				"id": "1",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "pl.com.andrzejgrzyb.shoppinglist.SettingsActivity"
+				}
+			},
+			{
+				"id": "4",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "pl.com.andrzejgrzyb.shoppinglist.ItemEditActivity"
+				}
+			},
+			{
+				"id": "9",
+				"properties": {
+					"type": "ContextMenu",
+					"ActivityName": "VAR[$r1"
+				}
+			},
+			{
+				"id": "3",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "pl.com.andrzejgrzyb.shoppinglist.ShoppingListViewActivity"
+				}
+			},
+			{
+				"id": "8",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "pl.com.andrzejgrzyb.shoppinglist.MainActivity"
+				}
+			},
+			{
+				"id": "5",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "pl.com.andrzejgrzyb.shoppinglist.MainActivity"
+				}
+			},
+			{
+				"id": "2",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "pl.com.andrzejgrzyb.shoppinglist.ShoppingListEditActivity"
+				}
+			},
+			{
+				"id": "7",
+				"properties": {
+					"type": "ContextMenu",
+					"ActivityName": "VAR[$r1"
+				}
+			},
+			{
+				"id": "6",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "pl.com.andrzejgrzyb.shoppinglist.ShoppingListViewActivity"
+				}
+			}
+		],
+		"relationships": [
+			{
+				"id": "1",
+				"type": "can_access",
+				"startNode": "9",
+				"endNode": "2",
+				"properties": {
+					"id": "android.view.MenuItem,*,7972",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "2",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "3",
+				"properties": {
+					"id": "toolbar",
+					"class": "android.support.v7.widget.Toolbar",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "3",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "3",
+				"properties": {
+					"id": "shopping_lists_list_view",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "4",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "3",
+				"properties": {
+					"id": "item_list_view",
+					"class": "pl.com.andrzejgrzyb.shoppinglist.DragNDropList.DragNDropListView",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "5",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "3",
+				"properties": {
+					"id": "empty_listview_textview",
+					"class": "android.widget.TextView",
+					"text": "You have no items on the list. Add one using the button below.",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "6",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "3",
+				"properties": {
+					"id": "fab",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "7",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "3",
+				"properties": {
+					"id": "shopping_list_description_text_view",
+					"class": "android.widget.TextView",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "8",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "8",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "9",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "addShoppingListButton",
+					"class": "android.widget.Button",
+					"text": "Save",
+					"action": "click"
+				}
+			},
+			{
+				"id": "10",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "3",
+				"properties": {
+					"id": "menu_item_sort",
+					"class": "android.view.MenuItem",
+					"text": "Sort...",
+					"action": "click"
+				}
+			},
+			{
+				"id": "11",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "3",
+				"properties": {
+					"id": "menu_item_clear_checked",
+					"class": "android.view.MenuItem",
+					"text": "Delete checked items",
+					"action": "click"
+				}
+			},
+			{
+				"id": "12",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "3",
+				"properties": {
+					"id": "menu_item_share",
+					"class": "android.view.MenuItem",
+					"text": "Share",
+					"action": "click"
+				}
+			},
+			{
+				"id": "13",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "3",
+				"properties": {
+					"id": "edit",
+					"class": "android.view.MenuItem",
+					"text": "Edit",
+					"action": "click"
+				}
+			},
+			{
+				"id": "14",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "3",
+				"properties": {
+					"id": "delete",
+					"class": "android.view.MenuItem",
+					"text": "Delete",
+					"action": "click"
+				}
+			},
+			{
+				"id": "15",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "3",
+				"properties": {
+					"id": "move",
+					"class": "android.view.MenuItem",
+					"text": "Move to another list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "16",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "7",
+				"properties": {
+					"id": "fab",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "17",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "3",
+				"properties": {
+					"id": "addShoppingListButton",
+					"class": "android.widget.Button",
+					"text": "Save",
+					"action": "click"
+				}
+			},
+			{
+				"id": "18",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "7",
+				"properties": {
+					"id": "empty_listview_textview",
+					"class": "android.widget.TextView",
+					"text": "You have no items on the list. Add one using the button below.",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "19",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "4",
+				"properties": {
+					"id": "fab",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "20",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "7",
+				"properties": {
+					"id": "toolbar",
+					"class": "android.support.v7.widget.Toolbar",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "21",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "7",
+				"properties": {
+					"id": "item_list_view",
+					"class": "pl.com.andrzejgrzyb.shoppinglist.DragNDropList.DragNDropListView",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "22",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "7",
+				"properties": {
+					"id": "shopping_list_description_text_view",
+					"class": "android.widget.TextView",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "23",
+				"type": "can_access",
+				"startNode": "9",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,7972",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "24",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "9",
+				"properties": {
+					"id": "empty_listview_textview",
+					"class": "android.widget.TextView",
+					"text": "You have no shopping lists. Add one using the button below.",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "25",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "9",
+				"properties": {
+					"id": "drawer_layout",
+					"class": "android.support.v4.widget.DrawerLayout",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "26",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "quantity_unit_l_radio",
+					"class": "android.widget.RadioButton",
+					"text": "l",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "27",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "9",
+				"properties": {
+					"id": "main_activity_toolbar",
+					"class": "android.support.v7.widget.Toolbar",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "28",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "9",
+				"properties": {
+					"id": "nav_view",
+					"class": "android.support.design.widget.NavigationView",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "29",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "9",
+				"properties": {
+					"id": "shopping_lists_list_view",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "30",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "9",
+				"properties": {
+					"id": "fab",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "31",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "quantity_unit_gal_radio",
+					"class": "android.widget.RadioButton",
+					"text": "gal",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "32",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "quantity_unit_m_radio",
+					"class": "android.widget.RadioButton",
+					"text": "m",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "33",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "addShoppingListButton",
+					"class": "android.widget.Button",
+					"text": "Save",
+					"action": "click"
+				}
+			},
+			{
+				"id": "34",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "quantity_unit_kg_radio",
+					"class": "android.widget.RadioButton",
+					"text": "kg",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "35",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "quantity_unit_ft_radio",
+					"class": "android.widget.RadioButton",
+					"text": "ft",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "36",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "quantity_unit_ml_radio",
+					"class": "android.widget.RadioButton",
+					"text": "ml",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "37",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "quantity_plus_button",
+					"class": "android.widget.Button",
+					"text": "+",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "38",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "quantity_unit_g_radio",
+					"class": "android.widget.RadioButton",
+					"text": "g",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "39",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "quantity_minus_button",
+					"class": "android.widget.Button",
+					"text": "-",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "40",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "quantity_unit_pcs_radio",
+					"class": "android.widget.RadioButton",
+					"text": "pcs",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "41",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "quantity_unit_lb_radio",
+					"class": "android.widget.RadioButton",
+					"text": "lb",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "42",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "quantity_unit_oz_radio",
+					"class": "android.widget.RadioButton",
+					"text": "oz",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "43",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "quantity_unit_fl_oz_radio",
+					"class": "android.widget.RadioButton",
+					"text": "fl oz",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "44",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "5",
+				"properties": {
+					"id": "nav_view",
+					"class": "android.support.design.widget.NavigationView",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "45",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "5",
+				"properties": {
+					"id": "main_activity_toolbar",
+					"class": "android.support.v7.widget.Toolbar",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "46",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "5",
+				"properties": {
+					"id": "empty_listview_textview",
+					"class": "android.widget.TextView",
+					"text": "You have no shopping lists. Add one using the button below.",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "47",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "5",
+				"properties": {
+					"id": "drawer_layout",
+					"class": "android.support.v4.widget.DrawerLayout",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "48",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "5",
+				"properties": {
+					"id": "shopping_lists_list_view",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "49",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "5",
+				"properties": {
+					"id": "fab",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "50",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "6",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "51",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "4",
+				"properties": {
+					"id": "delete",
+					"class": "android.view.MenuItem",
+					"text": "Delete",
+					"action": "click"
+				}
+			},
+			{
+				"id": "52",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "4",
+				"properties": {
+					"id": "edit",
+					"class": "android.view.MenuItem",
+					"text": "Edit",
+					"action": "click"
+				}
+			},
+			{
+				"id": "53",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "4",
+				"properties": {
+					"id": "move",
+					"class": "android.view.MenuItem",
+					"text": "Move to another list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "54",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "5",
+				"properties": {
+					"id": "addShoppingListButton",
+					"class": "android.widget.Button",
+					"text": "Save",
+					"action": "click"
+				}
+			},
+			{
+				"id": "55",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "2",
+				"properties": {
+					"id": "fab",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			}
+		]
+	}
+}

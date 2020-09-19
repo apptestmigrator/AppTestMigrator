@@ -1,0 +1,25 @@
+    androidTestCompile 'com.android.support:support-annotations:?'
+    androidTestCompile 'com.android.support:recyclerview-v7:?'
+    //compile 'com.android.support:design:?'
+    androidTestCompile ('com.android.support.test:rules:0.5') { exclude group: 'com.android.support' }
+    androidTestCompile ('com.android.support.test:runner:0.5') { exclude group: 'com.android.support' }
+
+    compile project(":espresso-contrib-release")
+    compile project(":espresso-core-release")
+    compile project(":espresso-idling-resource-release")
+    compile project(":espresso-intents-release")
+    compile project(":uiautomator-v18-release")
+
+    androidTestCompile 'com.android.support:multidex:1.0.1'
+    androidTestCompile 'javax.annotation:javax.annotation-api:1.2'
+    androidTestCompile 'javax.inject:javax.inject:1'
+    androidTestCompile 'com.google.code.findbugs:jsr305:2.0.1'
+    androidTestCompile 'org.hamcrest:hamcrest-library:1.3'
+    androidTestCompile 'org.hamcrest:hamcrest-integration:1.3'
+    androidTestCompile 'com.squareup:javawriter:2.1.1'
+    androidTestCompile 'com.squareup.okhttp3:okhttp:3.9.0'
+
+    //provided files('libs/dagger-2.1-20150513.195741-5.jar')
+    //provided files('libs/dagger-compiler-2.1-20150513.195817-5.jar')
+    //provided files('libs/dagger-producers-2.1-20150513.195750-5.jar')
+    //provided files('libs/guava-18.0.jar')

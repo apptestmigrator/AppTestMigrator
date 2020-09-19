@@ -1,0 +1,415 @@
+{
+	"graph": {
+		"nodes": [
+			{
+				"id": "10",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.ProgressDialog"
+				}
+			},
+			{
+				"id": "6",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.batch.android.MessagingActivity"
+				}
+			},
+			{
+				"id": "12",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "4",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.benoitletondor.easybudgetapp.view.MainActivity"
+				}
+			},
+			{
+				"id": "15",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "com.benoitletondor.easybudgetapp.view.MainActivity"
+				}
+			},
+			{
+				"id": "14",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.DatePickerDialog"
+				}
+			},
+			{
+				"id": "16",
+				"properties": {
+					"type": "LAUNCHER_NODE",
+					"ActivityName": ""
+				}
+			},
+			{
+				"id": "5",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.benoitletondor.easybudgetapp.view.ExpenseEditActivity"
+				}
+			},
+			{
+				"id": "9",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.benoitletondor.easybudgetapp.view.WelcomeActivity"
+				}
+			},
+			{
+				"id": "11",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.ProgressDialog"
+				}
+			},
+			{
+				"id": "8",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.batch.android.BatchActionActivity"
+				}
+			},
+			{
+				"id": "1",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.benoitletondor.easybudgetapp.view.RecurringExpenseEditActivity"
+				}
+			},
+			{
+				"id": "3",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.benoitletondor.easybudgetapp.view.PremiumActivity"
+				}
+			},
+			{
+				"id": "13",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.ProgressDialog"
+				}
+			},
+			{
+				"id": "7",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.benoitletondor.easybudgetapp.view.SettingsActivity"
+				}
+			},
+			{
+				"id": "2",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.benoitletondor.easybudgetapp.view.MonthlyReportActivity"
+				}
+			},
+			{
+				"id": "17",
+				"properties": {
+					"type": "ContextMenu",
+					"ActivityName": ""
+				}
+			}
+		],
+		"relationships": [
+			{
+				"id": "1",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "monthly_report_next_month_button",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "2",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "monthly_report_previous_month_button",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "3",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "4",
+				"properties": {
+					"id": "action_balance",
+					"class": "android.view.MenuItem",
+					"text": "Adjust current balance",
+					"action": "click"
+				}
+			},
+			{
+				"id": "4",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "4",
+				"properties": {
+					"id": "action_monthly_report",
+					"class": "android.view.MenuItem",
+					"text": "Monthly report",
+					"action": "click"
+				}
+			},
+			{
+				"id": "5",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "4",
+				"properties": {
+					"id": "action_settings",
+					"class": "android.view.MenuItem",
+					"text": "Settings",
+					"action": "click"
+				}
+			},
+			{
+				"id": "6",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "5",
+				"properties": {
+					"id": "expense_type_switch",
+					"class": "android.support.v7.widget.SwitchCompat",
+					"text": "",
+					"action": "select"
+				}
+			},
+			{
+				"id": "7",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "5",
+				"properties": {
+					"id": "amount_edittext",
+					"class": "android.support.design.widget.TextInputEditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "8",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "5",
+				"properties": {
+					"id": "save_expense_fab",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "9",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "5",
+				"properties": {
+					"id": "date_button",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "10",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "5",
+				"properties": {
+					"id": "description_edittext",
+					"class": "android.support.design.widget.TextInputEditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "11",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "15",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "12",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "fab_choices_background",
+					"class": "android.view.View",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "13",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "fab_choices",
+					"class": "com.getbase.floatingactionbutton.FloatingActionsMenu",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "14",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "expensesRecyclerView",
+					"class": "android.support.v7.widget.RecyclerView",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "15",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "1",
+				"properties": {
+					"id": "fab_new_recurring_expense",
+					"class": "com.getbase.floatingactionbutton.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "16",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "5",
+				"properties": {
+					"id": "fab_new_expense",
+					"class": "com.getbase.floatingactionbutton.AddFloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "17",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "com.getbase.floatingactionbutton.FloatingActionsMenu$1,*,33892",
+					"class": "com.getbase.floatingactionbutton.FloatingActionsMenu$1",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "18",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "monthly_report_hint_button",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "19",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "description_edittext",
+					"class": "android.support.design.widget.TextInputEditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "20",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "save_expense_fab",
+					"class": "android.support.design.widget.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "21",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "date_button",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "22",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "amount_edittext",
+					"class": "android.support.design.widget.TextInputEditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "23",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "expense_type_switch",
+					"class": "android.support.v7.widget.SwitchCompat",
+					"text": "",
+					"action": "select"
+				}
+			},
+			{
+				"id": "24",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "17",
+				"properties": {
+					"id": "fab_expand_menu_button",
+					"class": "com.getbase.floatingactionbutton.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			}
+		]
+	}
+}

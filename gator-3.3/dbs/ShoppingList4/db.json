@@ -1,0 +1,4177 @@
+{
+	"graph": {
+		"nodes": [
+			{
+				"id": "34",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "org.openintents.distribution.DistributionLibraryListActivity"
+				}
+			},
+			{
+				"id": "14",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "org.openintents.distribution.DownloadAppDialog"
+				}
+			},
+			{
+				"id": "16",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "org.openintents.shopping.ui.dialog.NewListDialog"
+				}
+			},
+			{
+				"id": "17",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "18",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "org.openintents.distribution.UpdateDialog"
+				}
+			},
+			{
+				"id": "29",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "org.openintents.distribution.InfoActivity"
+				}
+			},
+			{
+				"id": "30",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "org.openintents.shopping.ui.ShoppingActivity"
+				}
+			},
+			{
+				"id": "9",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.openintents.shopping.widgets.CheckItemsWidgetConfig"
+				}
+			},
+			{
+				"id": "35",
+				"properties": {
+					"type": "LAUNCHER_NODE",
+					"ActivityName": ""
+				}
+			},
+			{
+				"id": "11",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.openintents.distribution.DistributionLibraryFragmentActivity"
+				}
+			},
+			{
+				"id": "21",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "org.openintents.distribution.DownloadAppDialog"
+				}
+			},
+			{
+				"id": "22",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "org.openintents.shopping.ui.dialog.EditItemDialog"
+				}
+			},
+			{
+				"id": "24",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "org.openintents.distribution.DownloadAppDialog"
+				}
+			},
+			{
+				"id": "2",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.openintents.distribution.EulaActivity"
+				}
+			},
+			{
+				"id": "25",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "32",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "org.openintents.shopping.ShoppingActivity"
+				}
+			},
+			{
+				"id": "1",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.openintents.distribution.DistributionLibraryActivity"
+				}
+			},
+			{
+				"id": "5",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.openintents.shopping.ui.PickItemsActivity"
+				}
+			},
+			{
+				"id": "13",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "org.openintents.distribution.PrivacyDialog"
+				}
+			},
+			{
+				"id": "12",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.openintents.distribution.DistributionLibraryListActivity"
+				}
+			},
+			{
+				"id": "6",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.openintents.shopping.ui.ShoppingActivity"
+				}
+			},
+			{
+				"id": "15",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "33",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "org.openintents.distribution.DistributionLibraryFragmentActivity"
+				}
+			},
+			{
+				"id": "3",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.openintents.shopping.ui.ShoppingListsActivity"
+				}
+			},
+			{
+				"id": "7",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.openintents.shopping.ShoppingActivity"
+				}
+			},
+			{
+				"id": "28",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "org.openintents.distribution.DistributionLibraryActivity"
+				}
+			},
+			{
+				"id": "10",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.openintents.distribution.NewVersionActivity"
+				}
+			},
+			{
+				"id": "31",
+				"properties": {
+					"type": "ContextMenu",
+					"ActivityName": "VAR[$r1"
+				}
+			},
+			{
+				"id": "4",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.openintents.distribution.InfoActivity"
+				}
+			},
+			{
+				"id": "19",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "org.openintents.distribution.DownloadOIAppDialog"
+				}
+			},
+			{
+				"id": "20",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "org.openintents.shopping.ui.dialog.ThemeDialog"
+				}
+			},
+			{
+				"id": "23",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "26",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "org.openintents.shopping.ui.dialog.RenameListDialog"
+				}
+			},
+			{
+				"id": "8",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "org.openintents.shopping.ui.PreferenceActivity"
+				}
+			},
+			{
+				"id": "27",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "org.openintents.distribution.AboutDialog"
+				}
+			}
+		],
+		"relationships": [
+			{
+				"id": "1",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "4",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "OK",
+					"action": "click"
+				}
+			},
+			{
+				"id": "2",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "11",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "3",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "11",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "4",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "5",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1004;980;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "6",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "7",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "8",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "5",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "Shopping",
+					"action": "click"
+				}
+			},
+			{
+				"id": "9",
+				"type": "can_access",
+				"startNode": "23",
+				"endNode": "4",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "10",
+				"type": "can_access",
+				"startNode": "23",
+				"endNode": "4",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "11",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "16",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "12",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "13",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1004;980;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "14",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "15",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "16",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "17",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "18",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1004;980;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "19",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "20",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "8",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "21",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "22",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "23",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "24",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "22",
+				"properties": {
+					"id": "list_items",
+					"class": "org.openintents.shopping.ui.widget.ShoppingItemsView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "25",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "26",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "27",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "28",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "29",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "30",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "31",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "7",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "32",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "7",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "33",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "12",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "OK",
+					"action": "click"
+				}
+			},
+			{
+				"id": "34",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "35",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "36",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "37",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "22",
+				"properties": {
+					"id": "list_items",
+					"class": "org.openintents.shopping.ui.widget.ShoppingItemsView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "38",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "39",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "40",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1004;980;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "41",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "42",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "5",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "Shopping",
+					"action": "click"
+				}
+			},
+			{
+				"id": "43",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "44",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "45",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "46",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "11",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "47",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "11",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "48",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "4",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "49",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "4",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "50",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "4",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "51",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "4",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "52",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "4",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "53",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "4",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "54",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "4",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "55",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "4",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "56",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "4",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "57",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "4",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "58",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "4",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "59",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "4",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "60",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1004;980;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "61",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "62",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "63",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "64",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "26",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "65",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "7",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "OK",
+					"action": "click"
+				}
+			},
+			{
+				"id": "66",
+				"type": "can_access",
+				"startNode": "20",
+				"endNode": "20",
+				"properties": {
+					"id": "list1",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "67",
+				"type": "can_access",
+				"startNode": "20",
+				"endNode": "20",
+				"properties": {
+					"id": "list1",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "68",
+				"type": "can_access",
+				"startNode": "23",
+				"endNode": "1",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "69",
+				"type": "can_access",
+				"startNode": "23",
+				"endNode": "1",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "70",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "7",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "71",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "7",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "72",
+				"type": "can_access",
+				"startNode": "23",
+				"endNode": "6",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "73",
+				"type": "can_access",
+				"startNode": "23",
+				"endNode": "6",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "74",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "75",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "76",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "77",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "20",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "78",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "79",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1004;980;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "80",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "81",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "82",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "83",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "84",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "85",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "86",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "87",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "88",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "android.view.MenuItem,*,1004;980;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "89",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "90",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "91",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "92",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "93",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "94",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "95",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "96",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "97",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "Shopping",
+					"action": "click"
+				}
+			},
+			{
+				"id": "98",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "Shopping",
+					"action": "click"
+				}
+			},
+			{
+				"id": "99",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "100",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "101",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "102",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "6",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "103",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "104",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "16",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "105",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1004;980;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "106",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "107",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "108",
+				"type": "can_access",
+				"startNode": "19",
+				"endNode": "7",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "109",
+				"type": "can_access",
+				"startNode": "19",
+				"endNode": "7",
+				"properties": {
+					"id": "button3",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "110",
+				"type": "can_access",
+				"startNode": "19",
+				"endNode": "7",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "111",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "19",
+				"properties": {
+					"id": "button_add_item",
+					"class": "android.widget.Button",
+					"text": "Add",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "112",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "113",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "114",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "115",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "29",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "116",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "6",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "117",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "6",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "118",
+				"type": "can_access",
+				"startNode": "20",
+				"endNode": "6",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "119",
+				"type": "can_access",
+				"startNode": "20",
+				"endNode": "6",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "120",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "19",
+				"properties": {
+					"id": "button_add_item",
+					"class": "android.widget.Button",
+					"text": "Add",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "121",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "122",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "123",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "7",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "124",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "125",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "7",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "126",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "127",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "8",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "128",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "129",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1004;980;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "130",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "131",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "spinner_listfilter",
+					"class": "android.widget.Spinner",
+					"text": "",
+					"action": "item_selected"
+				}
+			},
+			{
+				"id": "132",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "tagfilter",
+					"class": "android.widget.Button",
+					"text": "Tags",
+					"action": "click"
+				}
+			},
+			{
+				"id": "133",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "storefilter",
+					"class": "android.widget.Button",
+					"text": "Stores",
+					"action": "click"
+				}
+			},
+			{
+				"id": "134",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "button_add_item",
+					"class": "android.widget.Button",
+					"text": "Add",
+					"action": "click"
+				}
+			},
+			{
+				"id": "135",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "autocomplete_add_item",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "136",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "list_items",
+					"class": "org.openintents.shopping.ui.widget.ShoppingItemsView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "137",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "listfilter",
+					"class": "android.widget.Button",
+					"text": "List",
+					"action": "click"
+				}
+			},
+			{
+				"id": "138",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "button_add_item",
+					"class": "android.widget.Button",
+					"text": "Add",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "139",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "autocomplete_add_item",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "press_key"
+				}
+			},
+			{
+				"id": "140",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "6",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "141",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "6",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "142",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "6",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "OK",
+					"action": "click"
+				}
+			},
+			{
+				"id": "143",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "22",
+				"properties": {
+					"id": "editunits",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "144",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "22",
+				"properties": {
+					"id": "edittext",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "145",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "22",
+				"properties": {
+					"id": "editquantity",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "146",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "22",
+				"properties": {
+					"id": "edittags",
+					"class": "android.widget.MultiAutoCompleteTextView",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "147",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "22",
+				"properties": {
+					"id": "editpriority",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "148",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "22",
+				"properties": {
+					"id": "edittags",
+					"class": "android.widget.MultiAutoCompleteTextView",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "149",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "22",
+				"properties": {
+					"id": "pricestore",
+					"class": "android.widget.Button",
+					"text": "Stores...",
+					"action": "click"
+				}
+			},
+			{
+				"id": "150",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "22",
+				"properties": {
+					"id": "editprice",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "151",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "4",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "152",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "4",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "153",
+				"type": "can_access",
+				"startNode": "20",
+				"endNode": "4",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "154",
+				"type": "can_access",
+				"startNode": "20",
+				"endNode": "4",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "155",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "30",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "156",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "157",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "158",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "159",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1004;980;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "160",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "161",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "162",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "163",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "23",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "164",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "24",
+				"properties": {
+					"id": "note",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "165",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "11",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "OK",
+					"action": "click"
+				}
+			},
+			{
+				"id": "166",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "4",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "167",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "4",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "168",
+				"type": "can_access",
+				"startNode": "20",
+				"endNode": "11",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "169",
+				"type": "can_access",
+				"startNode": "20",
+				"endNode": "11",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "170",
+				"type": "can_access",
+				"startNode": "24",
+				"endNode": "22",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "171",
+				"type": "can_access",
+				"startNode": "24",
+				"endNode": "22",
+				"properties": {
+					"id": "button3",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "172",
+				"type": "can_access",
+				"startNode": "24",
+				"endNode": "22",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "173",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "5",
+				"properties": {
+					"id": "autocomplete_add_item",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "press_key"
+				}
+			},
+			{
+				"id": "174",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "5",
+				"properties": {
+					"id": "button_add_item",
+					"class": "android.widget.Button",
+					"text": "Add",
+					"action": "click"
+				}
+			},
+			{
+				"id": "175",
+				"type": "can_access",
+				"startNode": "23",
+				"endNode": "11",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "176",
+				"type": "can_access",
+				"startNode": "23",
+				"endNode": "11",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "177",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "178",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1004;980;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "179",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "20",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "180",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "181",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "182",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "12",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "183",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "12",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "184",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "185",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "186",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "187",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "188",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "189",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "190",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "191",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "192",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "193",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "32",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "194",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "195",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "196",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "197",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "198",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "android.view.MenuItem,*,1004;980;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "199",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "200",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "201",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "202",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "203",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "204",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "205",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "206",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "207",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "208",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "209",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "210",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "211",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "212",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "213",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "Shopping",
+					"action": "click"
+				}
+			},
+			{
+				"id": "214",
+				"type": "can_access",
+				"startNode": "32",
+				"endNode": "7",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "Shopping",
+					"action": "click"
+				}
+			},
+			{
+				"id": "215",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "216",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "217",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "218",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "26",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "219",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1004;980;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "220",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "221",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "222",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "223",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "224",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "225",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "226",
+				"type": "can_access",
+				"startNode": "19",
+				"endNode": "6",
+				"properties": {
+					"id": "button3",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "227",
+				"type": "can_access",
+				"startNode": "19",
+				"endNode": "6",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "228",
+				"type": "can_access",
+				"startNode": "19",
+				"endNode": "6",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "229",
+				"type": "can_access",
+				"startNode": "20",
+				"endNode": "7",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "230",
+				"type": "can_access",
+				"startNode": "20",
+				"endNode": "7",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "231",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "33",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "232",
+				"type": "can_access",
+				"startNode": "20",
+				"endNode": "12",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "233",
+				"type": "can_access",
+				"startNode": "20",
+				"endNode": "12",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "234",
+				"type": "can_access",
+				"startNode": "12",
+				"endNode": "34",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "235",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "1",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "236",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "1",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "237",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "238",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "239",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "240",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "12",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "241",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "12",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "242",
+				"type": "can_access",
+				"startNode": "20",
+				"endNode": "1",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "243",
+				"type": "can_access",
+				"startNode": "20",
+				"endNode": "1",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "244",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "245",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "246",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "247",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "248",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "249",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "5",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "250",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "251",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "252",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "253",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "254",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "255",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "16",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "256",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "button_add_item",
+					"class": "android.widget.Button",
+					"text": "Add",
+					"action": "long_click"
+				}
+			},
+			{
+				"id": "257",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "spinner_listfilter",
+					"class": "android.widget.Spinner",
+					"text": "",
+					"action": "item_selected"
+				}
+			},
+			{
+				"id": "258",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "autocomplete_add_item",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "press_key"
+				}
+			},
+			{
+				"id": "259",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "list_items",
+					"class": "org.openintents.shopping.ui.widget.ShoppingItemsView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "260",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "listfilter",
+					"class": "android.widget.Button",
+					"text": "List",
+					"action": "click"
+				}
+			},
+			{
+				"id": "261",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "autocomplete_add_item",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "262",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "tagfilter",
+					"class": "android.widget.Button",
+					"text": "Tags",
+					"action": "click"
+				}
+			},
+			{
+				"id": "263",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "storefilter",
+					"class": "android.widget.Button",
+					"text": "Stores",
+					"action": "click"
+				}
+			},
+			{
+				"id": "264",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "button_add_item",
+					"class": "android.widget.Button",
+					"text": "Add",
+					"action": "click"
+				}
+			},
+			{
+				"id": "265",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "6",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "266",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "6",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "267",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "11",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "268",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "11",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "269",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "11",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "270",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "11",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "271",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "11",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "272",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "11",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "273",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "11",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "274",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "11",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "275",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "11",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "276",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "11",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "277",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "11",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "278",
+				"type": "can_access",
+				"startNode": "33",
+				"endNode": "11",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "279",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "35",
+				"properties": {
+					"id": "list_items",
+					"class": "org.openintents.shopping.ui.widget.ShoppingItemsView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "280",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "281",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "282",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "8",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "283",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "284",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1004;980;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "285",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "286",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "23",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "287",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "23",
+				"properties": {
+					"id": "ANONYMOUS",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "288",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "1",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "OK",
+					"action": "click"
+				}
+			},
+			{
+				"id": "289",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "5",
+				"properties": {
+					"id": "autocomplete_add_item",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "press_key"
+				}
+			},
+			{
+				"id": "290",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "5",
+				"properties": {
+					"id": "button_add_item",
+					"class": "android.widget.Button",
+					"text": "Add",
+					"action": "click"
+				}
+			},
+			{
+				"id": "291",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "1",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "292",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "1",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "293",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "12",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "294",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "12",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "295",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "12",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "296",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "12",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "297",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "12",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "298",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "12",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "299",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "12",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "300",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "12",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "301",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "12",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "302",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "12",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "303",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "12",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "304",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "12",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "305",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "1",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "306",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "1",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "307",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "1",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "308",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "1",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "309",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "1",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "310",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "1",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "311",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "1",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "312",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "1",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "313",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "1",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "314",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "1",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "315",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "1",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "316",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "1",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "317",
+				"type": "can_access",
+				"startNode": "23",
+				"endNode": "12",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "318",
+				"type": "can_access",
+				"startNode": "23",
+				"endNode": "12",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "319",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "28",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "320",
+				"type": "can_access",
+				"startNode": "23",
+				"endNode": "7",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "321",
+				"type": "can_access",
+				"startNode": "23",
+				"endNode": "7",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "322",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "323",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "324",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "20",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "325",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "326",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "327",
+				"type": "can_access",
+				"startNode": "34",
+				"endNode": "26",
+				"properties": {
+					"id": "android.view.MenuItem,*,1043;933;1004;955;980;1028;",
+					"class": "android.view.MenuItem",
+					"text": "",
+					"action": "click"
+				}
+			}
+		]
+	}
+}

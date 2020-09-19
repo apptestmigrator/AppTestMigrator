@@ -1,0 +1,497 @@
+{
+	"graph": {
+		"nodes": [
+			{
+				"id": "5",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.kvannli.simonkvannli.dailybudget.expense_activity"
+				}
+			},
+			{
+				"id": "12",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.kvannli.simonkvannli.dailybudget.MainActivity"
+				}
+			},
+			{
+				"id": "2",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.kvannli.simonkvannli.dailybudget.InputActivity"
+				}
+			},
+			{
+				"id": "10",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.kvannli.simonkvannli.dailybudget.income_activity"
+				}
+			},
+			{
+				"id": "7",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.kvannli.simonkvannli.dailybudget.updateHistoryActivity"
+				}
+			},
+			{
+				"id": "4",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.kvannli.simonkvannli.dailybudget.TutorialActivity"
+				}
+			},
+			{
+				"id": "14",
+				"properties": {
+					"type": "LAUNCHER_NODE",
+					"ActivityName": ""
+				}
+			},
+			{
+				"id": "1",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.kvannli.simonkvannli.dailybudget.ex_item_activity"
+				}
+			},
+			{
+				"id": "13",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "3",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.kvannli.simonkvannli.dailybudget.HistoryActivity"
+				}
+			},
+			{
+				"id": "9",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.kvannli.simonkvannli.dailybudget.SavingsActivity"
+				}
+			},
+			{
+				"id": "8",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.kvannli.simonkvannli.dailybudget.feedback_activity"
+				}
+			},
+			{
+				"id": "11",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.kvannli.simonkvannli.dailybudget.settings_activity"
+				}
+			},
+			{
+				"id": "6",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.kvannli.simonkvannli.dailybudget.item_activity"
+				}
+			},
+			{
+				"id": "15",
+				"properties": {
+					"type": "ContextMenu",
+					"ActivityName": "com.kvannli.simonkvannli.dailybudget.MainActivity"
+				}
+			}
+		],
+		"relationships": [
+			{
+				"id": "1",
+				"type": "can_access",
+				"startNode": "12",
+				"endNode": "12",
+				"properties": {
+					"id": "imageButton",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "2",
+				"type": "can_access",
+				"startNode": "12",
+				"endNode": "12",
+				"properties": {
+					"id": "imageButton2",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "3",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "cancelButton",
+					"class": "android.widget.Button",
+					"text": "Cancel",
+					"action": "click"
+				}
+			},
+			{
+				"id": "4",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "updateButton",
+					"class": "android.widget.Button",
+					"text": "Update",
+					"action": "click"
+				}
+			},
+			{
+				"id": "5",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "spinner3",
+					"class": "android.widget.Spinner",
+					"text": "",
+					"action": "item_selected"
+				}
+			},
+			{
+				"id": "6",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "button7",
+					"class": "android.widget.Button",
+					"text": "Delete",
+					"action": "click"
+				}
+			},
+			{
+				"id": "7",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "7",
+				"properties": {
+					"id": "android.widget.TableLayout,*,2866",
+					"class": "android.widget.TableLayout",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "8",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "7",
+				"properties": {
+					"id": "imageView2",
+					"class": "android.widget.ImageView",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "9",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "7",
+				"properties": {
+					"id": "android.widget.TableLayout,*,2866",
+					"class": "android.widget.TableLayout",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "10",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "7",
+				"properties": {
+					"id": "label2",
+					"class": "android.widget.TextView",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "11",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "3",
+				"properties": {
+					"id": "android.widget.TableLayout,*,2866",
+					"class": "android.widget.TableLayout",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "12",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "3",
+				"properties": {
+					"id": "imageView2",
+					"class": "android.widget.ImageView",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "13",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "3",
+				"properties": {
+					"id": "label2",
+					"class": "android.widget.TextView",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "14",
+				"type": "can_access",
+				"startNode": "3",
+				"endNode": "3",
+				"properties": {
+					"id": "android.widget.TableLayout,*,2866",
+					"class": "android.widget.TableLayout",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "15",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "5",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "ADD EXPENSE",
+					"action": "click"
+				}
+			},
+			{
+				"id": "16",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "5",
+				"properties": {
+					"id": "spinner2",
+					"class": "android.widget.Spinner",
+					"text": "",
+					"action": "item_selected"
+				}
+			},
+			{
+				"id": "17",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "13",
+				"properties": {
+					"id": "button3",
+					"class": "android.widget.Button",
+					"text": "Change currency",
+					"action": "click"
+				}
+			},
+			{
+				"id": "18",
+				"type": "can_access",
+				"startNode": "9",
+				"endNode": "9",
+				"properties": {
+					"id": "editText",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "19",
+				"type": "can_access",
+				"startNode": "9",
+				"endNode": "9",
+				"properties": {
+					"id": "seekBar1",
+					"class": "android.widget.SeekBar",
+					"text": "",
+					"action": "drag"
+				}
+			},
+			{
+				"id": "20",
+				"type": "can_access",
+				"startNode": "8",
+				"endNode": "8",
+				"properties": {
+					"id": "button",
+					"class": "android.widget.Button",
+					"text": "Send mail",
+					"action": "click"
+				}
+			},
+			{
+				"id": "21",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "doneButton",
+					"class": "android.widget.Button",
+					"text": "Done",
+					"action": "click"
+				}
+			},
+			{
+				"id": "22",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "1",
+				"properties": {
+					"id": "android.widget.TableLayout,*,2759",
+					"class": "android.widget.TableLayout",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "23",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "updateButton",
+					"class": "android.widget.Button",
+					"text": "Update",
+					"action": "click"
+				}
+			},
+			{
+				"id": "24",
+				"type": "can_access",
+				"startNode": "10",
+				"endNode": "6",
+				"properties": {
+					"id": "android.widget.TableLayout,*,2840",
+					"class": "android.widget.TableLayout",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "25",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "cancelButton",
+					"class": "android.widget.Button",
+					"text": "Cancel",
+					"action": "click"
+				}
+			},
+			{
+				"id": "26",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "button7",
+					"class": "android.widget.Button",
+					"text": "Delete",
+					"action": "click"
+				}
+			},
+			{
+				"id": "27",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "cancelButton",
+					"class": "android.widget.Button",
+					"text": "Cancel",
+					"action": "click"
+				}
+			},
+			{
+				"id": "28",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "updateButton",
+					"class": "android.widget.Button",
+					"text": "Update",
+					"action": "click"
+				}
+			},
+			{
+				"id": "29",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "spinner3",
+					"class": "android.widget.Spinner",
+					"text": "",
+					"action": "item_selected"
+				}
+			},
+			{
+				"id": "30",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "6",
+				"properties": {
+					"id": "button7",
+					"class": "android.widget.Button",
+					"text": "Delete",
+					"action": "click"
+				}
+			},
+			{
+				"id": "31",
+				"type": "can_access",
+				"startNode": "10",
+				"endNode": "10",
+				"properties": {
+					"id": "spinner",
+					"class": "android.widget.Spinner",
+					"text": "",
+					"action": "item_selected"
+				}
+			},
+			{
+				"id": "32",
+				"type": "can_access",
+				"startNode": "10",
+				"endNode": "10",
+				"properties": {
+					"id": "button2",
+					"class": "android.widget.Button",
+					"text": "ADD INCOME",
+					"action": "click"
+				}
+			}
+		]
+	}
+}

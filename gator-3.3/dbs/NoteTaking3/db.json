@@ -1,0 +1,700 @@
+{
+	"graph": {
+		"nodes": [
+			{
+				"id": "3",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "me.writeily.PromptPinActivity"
+				}
+			},
+			{
+				"id": "8",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "me.writeily.NoteActivity"
+				}
+			},
+			{
+				"id": "11",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "7",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "me.writeily.PreviewActivity"
+				}
+			},
+			{
+				"id": "2",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "me.writeily.AlphanumericPinActivity"
+				}
+			},
+			{
+				"id": "12",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "20",
+				"properties": {
+					"type": "LAUNCHER_NODE",
+					"ActivityName": ""
+				}
+			},
+			{
+				"id": "6",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "me.writeily.settings.SettingsActivity"
+				}
+			},
+			{
+				"id": "1",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "me.writeily.MainActivity"
+				}
+			},
+			{
+				"id": "19",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "me.writeily.NoteActivity"
+				}
+			},
+			{
+				"id": "9",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "10",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "18",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "me.writeily.PreviewActivity"
+				}
+			},
+			{
+				"id": "4",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "me.writeily.PinActivity"
+				}
+			},
+			{
+				"id": "5",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "me.writeily.widget.WidgetConfigure"
+				}
+			},
+			{
+				"id": "13",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "14",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "15",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "17",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "me.writeily.MainActivity"
+				}
+			},
+			{
+				"id": "16",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			}
+		],
+		"relationships": [
+			{
+				"id": "1",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "15",
+				"properties": {
+					"id": "notes_listview",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "2",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "15",
+				"properties": {
+					"id": "notes_listview",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "3",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "15",
+				"properties": {
+					"id": "import_header_btn",
+					"class": "android.widget.Button",
+					"text": "Back to previous folder",
+					"action": "click"
+				}
+			},
+			{
+				"id": "4",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "15",
+				"properties": {
+					"id": "import_header_btn",
+					"class": "android.widget.Button",
+					"text": "Back to previous folder",
+					"action": "click"
+				}
+			},
+			{
+				"id": "5",
+				"type": "can_access",
+				"startNode": "8",
+				"endNode": "8",
+				"properties": {
+					"id": "keyboard_shortcut",
+					"class": "android.widget.TextView",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "6",
+				"type": "can_access",
+				"startNode": "8",
+				"endNode": "8",
+				"properties": {
+					"id": "note_content",
+					"class": "me.writeily.editor.HighlightingEditor",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "7",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "3",
+				"properties": {
+					"id": "pin1",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "8",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "8",
+				"properties": {
+					"id": "create_note",
+					"class": "com.getbase.floatingactionbutton.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "9",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "3",
+				"properties": {
+					"id": "pin2",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "10",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "3",
+				"properties": {
+					"id": "pin4",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "11",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "8",
+				"properties": {
+					"id": "create_folder",
+					"class": "com.getbase.floatingactionbutton.FloatingActionButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "12",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "3",
+				"properties": {
+					"id": "pin3",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "13",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "pin4",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "focus_change"
+				}
+			},
+			{
+				"id": "14",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "pin1",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "15",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "pin4",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "16",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "pin2",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "focus_change"
+				}
+			},
+			{
+				"id": "17",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "pin3",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "18",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "pin1",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "focus_change"
+				}
+			},
+			{
+				"id": "19",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "pin2",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "20",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "pin3",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "focus_change"
+				}
+			},
+			{
+				"id": "21",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "com.getbase.floatingactionbutton.FloatingActionsMenu$1,*,13399",
+					"class": "com.getbase.floatingactionbutton.FloatingActionsMenu$1",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "22",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "18",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "23",
+				"type": "can_access",
+				"startNode": "18",
+				"endNode": "8",
+				"properties": {
+					"id": "action_edit",
+					"class": "android.view.MenuItem",
+					"text": "Preview",
+					"action": "click"
+				}
+			},
+			{
+				"id": "24",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "11",
+				"properties": {
+					"id": "notes_listview",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "25",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "11",
+				"properties": {
+					"id": "import_header_btn",
+					"class": "android.widget.Button",
+					"text": "Back to previous folder",
+					"action": "click"
+				}
+			},
+			{
+				"id": "26",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "11",
+				"properties": {
+					"id": "notes_listview",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "27",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "11",
+				"properties": {
+					"id": "import_header_btn",
+					"class": "android.widget.Button",
+					"text": "Back to previous folder",
+					"action": "click"
+				}
+			},
+			{
+				"id": "28",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "3",
+				"properties": {
+					"id": "passcode",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "editor_action"
+				}
+			},
+			{
+				"id": "29",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "1",
+				"properties": {
+					"id": "action_import",
+					"class": "android.view.MenuItem",
+					"text": "Import from device",
+					"action": "click"
+				}
+			},
+			{
+				"id": "30",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "1",
+				"properties": {
+					"id": "action_search",
+					"class": "android.view.MenuItem",
+					"text": "Search",
+					"action": "click"
+				}
+			},
+			{
+				"id": "31",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "1",
+				"properties": {
+					"id": "passcode",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "editor_action"
+				}
+			},
+			{
+				"id": "32",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "1",
+				"properties": {
+					"id": "passcode",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "editor_action"
+				}
+			},
+			{
+				"id": "33",
+				"type": "can_access",
+				"startNode": "17",
+				"endNode": "6",
+				"properties": {
+					"id": "action_settings",
+					"class": "android.view.MenuItem",
+					"text": "Settings",
+					"action": "click"
+				}
+			},
+			{
+				"id": "34",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "1",
+				"properties": {
+					"id": "pin1",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "35",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "1",
+				"properties": {
+					"id": "pin1",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "36",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "1",
+				"properties": {
+					"id": "pin4",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "37",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "1",
+				"properties": {
+					"id": "pin3",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "38",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "1",
+				"properties": {
+					"id": "pin2",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "39",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "1",
+				"properties": {
+					"id": "pin3",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "40",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "1",
+				"properties": {
+					"id": "pin2",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "41",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "1",
+				"properties": {
+					"id": "pin4",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "42",
+				"type": "can_access",
+				"startNode": "8",
+				"endNode": "19",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "43",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "passcode",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "editor_action"
+				}
+			},
+			{
+				"id": "44",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "17",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "45",
+				"type": "can_access",
+				"startNode": "18",
+				"endNode": "7",
+				"properties": {
+					"id": "action_share",
+					"class": "android.view.MenuItem",
+					"text": "Share",
+					"action": "click"
+				}
+			},
+			{
+				"id": "46",
+				"type": "can_access",
+				"startNode": "19",
+				"endNode": "7",
+				"properties": {
+					"id": "action_preview",
+					"class": "android.view.MenuItem",
+					"text": "Preview",
+					"action": "click"
+				}
+			}
+		]
+	}
+}

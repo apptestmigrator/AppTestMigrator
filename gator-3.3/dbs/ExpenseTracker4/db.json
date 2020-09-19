@@ -1,0 +1,496 @@
+{
+	"graph": {
+		"nodes": [
+			{
+				"id": "13",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.record.MainActivity"
+				}
+			},
+			{
+				"id": "16",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "17",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.ui.AppRateDialog"
+				}
+			},
+			{
+				"id": "4",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.external.BackupActivity"
+				}
+			},
+			{
+				"id": "26",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.external.ImportExportActivity"
+				}
+			},
+			{
+				"id": "28",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.account.TransferActivity"
+				}
+			},
+			{
+				"id": "29",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.account.AccountsActivity"
+				}
+			},
+			{
+				"id": "21",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.ui.ChangeDateDialog"
+				}
+			},
+			{
+				"id": "24",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.DatePickerDialog"
+				}
+			},
+			{
+				"id": "27",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.record.AddRecordActivity"
+				}
+			},
+			{
+				"id": "3",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.exchange_rate.ExchangeRatesActivity"
+				}
+			},
+			{
+				"id": "15",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.dropbox.core.android.AuthActivity"
+				}
+			},
+			{
+				"id": "19",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.ui.ChangeDateDialog"
+				}
+			},
+			{
+				"id": "7",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.account.TransferActivity"
+				}
+			},
+			{
+				"id": "9",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.ReportActivity"
+				}
+			},
+			{
+				"id": "22",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "6",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.record.AddRecordActivity"
+				}
+			},
+			{
+				"id": "2",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.exchange_rate.AddExchangeRateActivity"
+				}
+			},
+			{
+				"id": "8",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.account.AccountsActivity"
+				}
+			},
+			{
+				"id": "32",
+				"properties": {
+					"type": "LAUNCHER_NODE",
+					"ActivityName": ""
+				}
+			},
+			{
+				"id": "1",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.charts.ChartsActivity"
+				}
+			},
+			{
+				"id": "14",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.account.EditAccountActivity"
+				}
+			},
+			{
+				"id": "20",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.TimePickerDialog"
+				}
+			},
+			{
+				"id": "25",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.exchange_rate.AddExchangeRateActivity"
+				}
+			},
+			{
+				"id": "23",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.ProgressDialog"
+				}
+			},
+			{
+				"id": "11",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.account.AddAccountActivity"
+				}
+			},
+			{
+				"id": "18",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "30",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.account.AddAccountActivity"
+				}
+			},
+			{
+				"id": "5",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.external.ImportExportActivity"
+				}
+			},
+			{
+				"id": "31",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.account.EditAccountActivity"
+				}
+			},
+			{
+				"id": "12",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.SettingsActivity"
+				}
+			},
+			{
+				"id": "10",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "com.blogspot.e_kanivets.moneytracker.activity.AboutActivity"
+				}
+			}
+		],
+		"relationships": [
+			{
+				"id": "1",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "30",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "2",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "17",
+				"properties": {
+					"id": "action_transfer",
+					"class": "android.view.MenuItem",
+					"text": "Transfer",
+					"action": "click"
+				}
+			},
+			{
+				"id": "3",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "22",
+				"properties": {
+					"id": "action_transfer",
+					"class": "android.view.MenuItem",
+					"text": "Transfer",
+					"action": "click"
+				}
+			},
+			{
+				"id": "4",
+				"type": "can_access",
+				"startNode": "30",
+				"endNode": "11",
+				"properties": {
+					"id": "action_done",
+					"class": "android.view.MenuItem",
+					"text": "Add",
+					"action": "click"
+				}
+			},
+			{
+				"id": "5",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "26",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "6",
+				"type": "can_access",
+				"startNode": "25",
+				"endNode": "2",
+				"properties": {
+					"id": "action_done",
+					"class": "android.view.MenuItem",
+					"text": "Add",
+					"action": "click"
+				}
+			},
+			{
+				"id": "7",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "13",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "8",
+				"type": "can_access",
+				"startNode": "27",
+				"endNode": "6",
+				"properties": {
+					"id": "action_done",
+					"class": "android.view.MenuItem",
+					"text": "Add",
+					"action": "click"
+				}
+			},
+			{
+				"id": "9",
+				"type": "can_access",
+				"startNode": "27",
+				"endNode": "6",
+				"properties": {
+					"id": "action_delete",
+					"class": "android.view.MenuItem",
+					"text": "Delete",
+					"action": "click"
+				}
+			},
+			{
+				"id": "10",
+				"type": "can_access",
+				"startNode": "22",
+				"endNode": "7",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "11",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "7",
+				"properties": {
+					"id": "action_done",
+					"class": "android.view.MenuItem",
+					"text": "Add",
+					"action": "click"
+				}
+			},
+			{
+				"id": "12",
+				"type": "can_access",
+				"startNode": "8",
+				"endNode": "29",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "13",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "7",
+				"properties": {
+					"id": "action_transfer",
+					"class": "android.view.MenuItem",
+					"text": "Transfer",
+					"action": "click"
+				}
+			},
+			{
+				"id": "14",
+				"type": "can_access",
+				"startNode": "31",
+				"endNode": "14",
+				"properties": {
+					"id": "action_archive",
+					"class": "android.view.MenuItem",
+					"text": "Archive",
+					"action": "click"
+				}
+			},
+			{
+				"id": "15",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "25",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "16",
+				"type": "can_access",
+				"startNode": "14",
+				"endNode": "31",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "17",
+				"type": "can_access",
+				"startNode": "6",
+				"endNode": "27",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "18",
+				"type": "can_access",
+				"startNode": "31",
+				"endNode": "16",
+				"properties": {
+					"id": "action_delete",
+					"class": "android.view.MenuItem",
+					"text": "Delete",
+					"action": "click"
+				}
+			},
+			{
+				"id": "19",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "28",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "20",
+				"type": "can_access",
+				"startNode": "28",
+				"endNode": "8",
+				"properties": {
+					"id": "action_done",
+					"class": "android.view.MenuItem",
+					"text": "Add",
+					"action": "click"
+				}
+			},
+			{
+				"id": "21",
+				"type": "can_access",
+				"startNode": "29",
+				"endNode": "15",
+				"properties": {
+					"id": "action_transfer",
+					"class": "android.view.MenuItem",
+					"text": "Transfer",
+					"action": "click"
+				}
+			},
+			{
+				"id": "22",
+				"type": "can_access",
+				"startNode": "26",
+				"endNode": "5",
+				"properties": {
+					"id": "action_help",
+					"class": "android.view.MenuItem",
+					"text": "Help",
+					"action": "click"
+				}
+			}
+		]
+	}
+}

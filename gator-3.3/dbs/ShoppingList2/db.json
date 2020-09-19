@@ -1,0 +1,1219 @@
+{
+	"graph": {
+		"nodes": [
+			{
+				"id": "5",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.TimePickerDialog"
+				}
+			},
+			{
+				"id": "6",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.DatePickerDialog"
+				}
+			},
+			{
+				"id": "9",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "13",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "2",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "br.com.vansprefs.UserPreferences"
+				}
+			},
+			{
+				"id": "14",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "3",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "br.com.vansact.ShoppingListImporter"
+				}
+			},
+			{
+				"id": "7",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "br.com.vansschedule.ScheduleShoppingList"
+				}
+			},
+			{
+				"id": "8",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "10",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "android.app.AlertDialog"
+				}
+			},
+			{
+				"id": "11",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "br.com.vansdialog.CustomDialogAboutApp"
+				}
+			},
+			{
+				"id": "12",
+				"properties": {
+					"type": "DIALOG",
+					"ActivityName": "br.com.vansdialog.CustomDialogShoppingListOptions"
+				}
+			},
+			{
+				"id": "1",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "br.com.vansact.AddItemShoppingList"
+				}
+			},
+			{
+				"id": "16",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "br.com.vansact.MainApp"
+				}
+			},
+			{
+				"id": "15",
+				"properties": {
+					"type": "OptionsMenu",
+					"ActivityName": "br.com.vansact.AddItemShoppingList"
+				}
+			},
+			{
+				"id": "4",
+				"properties": {
+					"type": "ACT",
+					"ActivityName": "br.com.vansact.MainApp"
+				}
+			},
+			{
+				"id": "17",
+				"properties": {
+					"type": "LAUNCHER_NODE",
+					"ActivityName": ""
+				}
+			}
+		],
+		"relationships": [
+			{
+				"id": "1",
+				"type": "can_access",
+				"startNode": "14",
+				"endNode": "1",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "2",
+				"type": "can_access",
+				"startNode": "14",
+				"endNode": "4",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "3",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "14",
+				"properties": {
+					"id": "lvShoppingList",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "4",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "14",
+				"properties": {
+					"id": "activity_main_app_id",
+					"class": "android.widget.LinearLayout",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "5",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "14",
+				"properties": {
+					"id": "view_date_shopping_list",
+					"class": "android.widget.LinearLayout",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "6",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "14",
+				"properties": {
+					"id": "android.widget.TableLayout,*,2371;2255;",
+					"class": "android.widget.TableLayout",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "7",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "14",
+				"properties": {
+					"id": "nameShoppingList",
+					"class": "android.widget.TextView",
+					"text": "aoisjdoajds",
+					"action": "click"
+				}
+			},
+			{
+				"id": "8",
+				"type": "can_access",
+				"startNode": "12",
+				"endNode": "7",
+				"properties": {
+					"id": "android.widget.ListView,*,1970",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "9",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "15",
+				"properties": {
+					"id": "action_delete_selecteds",
+					"class": "android.view.MenuItem",
+					"text": "Delete checked",
+					"action": "click"
+				}
+			},
+			{
+				"id": "10",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "15",
+				"properties": {
+					"id": "action_share",
+					"class": "android.view.MenuItem",
+					"text": "Share",
+					"action": "click"
+				}
+			},
+			{
+				"id": "11",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "15",
+				"properties": {
+					"id": "action_cancel",
+					"class": "android.view.MenuItem",
+					"text": "Cancel",
+					"action": "click"
+				}
+			},
+			{
+				"id": "12",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "15",
+				"properties": {
+					"id": "action_done",
+					"class": "android.view.MenuItem",
+					"text": "Add item",
+					"action": "click"
+				}
+			},
+			{
+				"id": "13",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "15",
+				"properties": {
+					"id": "action_delete_all",
+					"class": "android.view.MenuItem",
+					"text": "Delete all",
+					"action": "click"
+				}
+			},
+			{
+				"id": "14",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "15",
+				"properties": {
+					"id": "action_barcode_scan",
+					"class": "android.view.MenuItem",
+					"text": "Barcode scan",
+					"action": "click"
+				}
+			},
+			{
+				"id": "15",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "2",
+				"properties": {
+					"id": "title",
+					"class": "android.view.MenuItem",
+					"text": "Settings",
+					"action": "click"
+				}
+			},
+			{
+				"id": "16",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "15",
+				"properties": {
+					"id": "search",
+					"class": "android.view.MenuItem",
+					"text": "Search",
+					"action": "click"
+				}
+			},
+			{
+				"id": "17",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "15",
+				"properties": {
+					"id": "action_select_all",
+					"class": "android.view.MenuItem",
+					"text": "Check all",
+					"action": "click"
+				}
+			},
+			{
+				"id": "18",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "9",
+				"properties": {
+					"id": "lvItemShoppingList",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_long_click"
+				}
+			},
+			{
+				"id": "19",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "11",
+				"properties": {
+					"id": "about_tv_update_date",
+					"class": "android.widget.TextView",
+					"text": "Last update :",
+					"action": "click"
+				}
+			},
+			{
+				"id": "20",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "11",
+				"properties": {
+					"id": "about_tv_install_date",
+					"class": "android.widget.TextView",
+					"text": "Installation date :",
+					"action": "click"
+				}
+			},
+			{
+				"id": "21",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "11",
+				"properties": {
+					"id": "about_tv_version_android",
+					"class": "android.widget.TextView",
+					"text": "Android version :",
+					"action": "click"
+				}
+			},
+			{
+				"id": "22",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "11",
+				"properties": {
+					"id": "about_tv_version_app",
+					"class": "android.widget.TextView",
+					"text": "App version :",
+					"action": "click"
+				}
+			},
+			{
+				"id": "23",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "11",
+				"properties": {
+					"id": "about_tv_version_code",
+					"class": "android.widget.TextView",
+					"text": "Version code :",
+					"action": "click"
+				}
+			},
+			{
+				"id": "24",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "11",
+				"properties": {
+					"id": "about_bt_icon_shopping_list",
+					"class": "android.widget.ImageButton",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "25",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "11",
+				"properties": {
+					"id": "about_tv_contact",
+					"class": "android.widget.TextView",
+					"text": "No description",
+					"action": "click"
+				}
+			},
+			{
+				"id": "26",
+				"type": "can_access",
+				"startNode": "11",
+				"endNode": "11",
+				"properties": {
+					"id": "android.widget.LinearLayout,*,1782",
+					"class": "android.widget.LinearLayout",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "27",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "1",
+				"properties": {
+					"id": "lvShoppingList",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "28",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "1",
+				"properties": {
+					"id": "action_done",
+					"class": "android.view.MenuItem",
+					"text": "Add item",
+					"action": "click"
+				}
+			},
+			{
+				"id": "29",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "1",
+				"properties": {
+					"id": "action_share",
+					"class": "android.view.MenuItem",
+					"text": "Share",
+					"action": "click"
+				}
+			},
+			{
+				"id": "30",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "1",
+				"properties": {
+					"id": "action_select_all",
+					"class": "android.view.MenuItem",
+					"text": "Check all",
+					"action": "click"
+				}
+			},
+			{
+				"id": "31",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "1",
+				"properties": {
+					"id": "action_barcode_scan",
+					"class": "android.view.MenuItem",
+					"text": "Barcode scan",
+					"action": "click"
+				}
+			},
+			{
+				"id": "32",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "1",
+				"properties": {
+					"id": "search",
+					"class": "android.view.MenuItem",
+					"text": "Search",
+					"action": "click"
+				}
+			},
+			{
+				"id": "33",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "1",
+				"properties": {
+					"id": "action_cancel",
+					"class": "android.view.MenuItem",
+					"text": "Cancel",
+					"action": "click"
+				}
+			},
+			{
+				"id": "34",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "1",
+				"properties": {
+					"id": "action_settings",
+					"class": "android.view.MenuItem",
+					"text": "Settings",
+					"action": "click"
+				}
+			},
+			{
+				"id": "35",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "1",
+				"properties": {
+					"id": "action_delete_selecteds",
+					"class": "android.view.MenuItem",
+					"text": "Delete checked",
+					"action": "click"
+				}
+			},
+			{
+				"id": "36",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "1",
+				"properties": {
+					"id": "action_delete_all",
+					"class": "android.view.MenuItem",
+					"text": "Delete all",
+					"action": "click"
+				}
+			},
+			{
+				"id": "37",
+				"type": "can_access",
+				"startNode": "5",
+				"endNode": "7",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "38",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "lvShoppingList",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_long_click"
+				}
+			},
+			{
+				"id": "39",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "nameShoppingList",
+					"class": "android.widget.TextView",
+					"text": "aoisjdoajds",
+					"action": "click"
+				}
+			},
+			{
+				"id": "40",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "lvShoppingList",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "41",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "activity_main_app_id",
+					"class": "android.widget.LinearLayout",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "42",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "android.widget.TableLayout,*,2371;2255;",
+					"class": "android.widget.TableLayout",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "43",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "4",
+				"properties": {
+					"id": "view_date_shopping_list",
+					"class": "android.widget.LinearLayout",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "44",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "schedule_notificatin_display_date",
+					"class": "android.widget.TextView",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "45",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "schedule_notificatin_display_time",
+					"class": "android.widget.TextView",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "46",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "schedule_notificatin_cancel",
+					"class": "android.widget.Button",
+					"text": "Cancel",
+					"action": "click"
+				}
+			},
+			{
+				"id": "47",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "7",
+				"properties": {
+					"id": "schedule_notificatin_schedule",
+					"class": "android.widget.Button",
+					"text": "Schedule",
+					"action": "click"
+				}
+			},
+			{
+				"id": "48",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "13",
+				"properties": {
+					"id": "title",
+					"class": "android.view.MenuItem",
+					"text": "Settings",
+					"action": "click"
+				}
+			},
+			{
+				"id": "49",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "13",
+				"properties": {
+					"id": "action_barcode_scan",
+					"class": "android.view.MenuItem",
+					"text": "Barcode scan",
+					"action": "click"
+				}
+			},
+			{
+				"id": "50",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "13",
+				"properties": {
+					"id": "action_delete_all",
+					"class": "android.view.MenuItem",
+					"text": "Delete all",
+					"action": "click"
+				}
+			},
+			{
+				"id": "51",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "13",
+				"properties": {
+					"id": "action_done",
+					"class": "android.view.MenuItem",
+					"text": "Add item",
+					"action": "click"
+				}
+			},
+			{
+				"id": "52",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "13",
+				"properties": {
+					"id": "action_share",
+					"class": "android.view.MenuItem",
+					"text": "Share",
+					"action": "click"
+				}
+			},
+			{
+				"id": "53",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "13",
+				"properties": {
+					"id": "action_cancel",
+					"class": "android.view.MenuItem",
+					"text": "Cancel",
+					"action": "click"
+				}
+			},
+			{
+				"id": "54",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "13",
+				"properties": {
+					"id": "search",
+					"class": "android.view.MenuItem",
+					"text": "Search",
+					"action": "click"
+				}
+			},
+			{
+				"id": "55",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "13",
+				"properties": {
+					"id": "action_select_all",
+					"class": "android.view.MenuItem",
+					"text": "Check all",
+					"action": "click"
+				}
+			},
+			{
+				"id": "56",
+				"type": "can_access",
+				"startNode": "15",
+				"endNode": "13",
+				"properties": {
+					"id": "action_delete_selecteds",
+					"class": "android.view.MenuItem",
+					"text": "Delete checked",
+					"action": "click"
+				}
+			},
+			{
+				"id": "57",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "10",
+				"properties": {
+					"id": "action_delete_all",
+					"class": "android.view.MenuItem",
+					"text": "Delete all",
+					"action": "click"
+				}
+			},
+			{
+				"id": "58",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "14",
+				"properties": {
+					"id": "action_add",
+					"class": "android.view.MenuItem",
+					"text": "New list",
+					"action": "click"
+				}
+			},
+			{
+				"id": "59",
+				"type": "can_access",
+				"startNode": "13",
+				"endNode": "1",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "60",
+				"type": "can_access",
+				"startNode": "12",
+				"endNode": "8",
+				"properties": {
+					"id": "android.widget.ListView,*,1970",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "61",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "16",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "62",
+				"type": "can_access",
+				"startNode": "8",
+				"endNode": "12",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "63",
+				"type": "can_access",
+				"startNode": "10",
+				"endNode": "4",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "64",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "5",
+				"properties": {
+					"id": "schedule_notificatin_display_time",
+					"class": "android.widget.TextView",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "65",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "5",
+				"properties": {
+					"id": "schedule_notificatin_cancel",
+					"class": "android.widget.Button",
+					"text": "Cancel",
+					"action": "click"
+				}
+			},
+			{
+				"id": "66",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "5",
+				"properties": {
+					"id": "schedule_notificatin_display_date",
+					"class": "android.widget.TextView",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "67",
+				"type": "can_access",
+				"startNode": "7",
+				"endNode": "5",
+				"properties": {
+					"id": "schedule_notificatin_schedule",
+					"class": "android.widget.Button",
+					"text": "Schedule",
+					"action": "click"
+				}
+			},
+			{
+				"id": "68",
+				"type": "can_access",
+				"startNode": "4",
+				"endNode": "12",
+				"properties": {
+					"id": "lvShoppingList",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_long_click"
+				}
+			},
+			{
+				"id": "69",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "2",
+				"properties": {
+					"id": "action_settings",
+					"class": "android.view.MenuItem",
+					"text": "Settings",
+					"action": "click"
+				}
+			},
+			{
+				"id": "70",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "15",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "71",
+				"type": "can_access",
+				"startNode": "12",
+				"endNode": "12",
+				"properties": {
+					"id": "android.widget.ListView,*,1970",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "72",
+				"type": "can_access",
+				"startNode": "9",
+				"endNode": "1",
+				"properties": {
+					"id": "button1",
+					"class": "android.widget.Button",
+					"text": "",
+					"action": "click"
+				}
+			},
+			{
+				"id": "73",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "4",
+				"properties": {
+					"id": "action_delete_all",
+					"class": "android.view.MenuItem",
+					"text": "Delete all",
+					"action": "click"
+				}
+			},
+			{
+				"id": "74",
+				"type": "can_access",
+				"startNode": "16",
+				"endNode": "4",
+				"properties": {
+					"id": "action_update",
+					"class": "android.view.MenuItem",
+					"text": "Software update",
+					"action": "click"
+				}
+			},
+			{
+				"id": "75",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "edQuantity",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "press_key"
+				}
+			},
+			{
+				"id": "76",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "edDescription",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "77",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "edQuantity",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "78",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "edDescription",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "focus_change"
+				}
+			},
+			{
+				"id": "79",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "edUnitValue",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "focus_change"
+				}
+			},
+			{
+				"id": "80",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "",
+					"class": "",
+					"text": "",
+					"action": "press_key"
+				}
+			},
+			{
+				"id": "81",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "edUnitValue",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "press_key"
+				}
+			},
+			{
+				"id": "82",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "edDescription",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "press_key"
+				}
+			},
+			{
+				"id": "83",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "edQuantity",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "84",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "edUnitValue",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "enter_text"
+				}
+			},
+			{
+				"id": "85",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "edQuantity",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "focus_change"
+				}
+			},
+			{
+				"id": "86",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "lvItemShoppingList",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_long_click"
+				}
+			},
+			{
+				"id": "87",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "edDescription",
+					"class": "android.widget.AutoCompleteTextView",
+					"text": "",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "88",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "lvItemShoppingList",
+					"class": "android.widget.ListView",
+					"text": "",
+					"action": "item_click"
+				}
+			},
+			{
+				"id": "89",
+				"type": "can_access",
+				"startNode": "1",
+				"endNode": "1",
+				"properties": {
+					"id": "edUnitValue",
+					"class": "android.widget.EditText",
+					"text": "",
+					"action": "touch"
+				}
+			},
+			{
+				"id": "90",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "title",
+					"class": "android.widget.TextView",
+					"text": "Default style ordering of checked items",
+					"action": "click"
+				}
+			},
+			{
+				"id": "91",
+				"type": "can_access",
+				"startNode": "2",
+				"endNode": "2",
+				"properties": {
+					"id": "title",
+					"class": "android.widget.TextView",
+					"text": "Default alphabetical style ordering of items",
+					"action": "click"
+				}
+			}
+		]
+	}
+}
